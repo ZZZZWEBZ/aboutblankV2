@@ -1,12 +1,13 @@
-        <!DOCTYPE html>
-        <html>
-        <head>
-            <title>Redirect to about:blank</title>
-            <script>
-            window.location.replace("about:blank");
-            </script>
-        </head>
-        <body>
-            <!-- https://aboutblank-v2.vercel.app/ -->
-        </body>
-        </html>
+// Get the input field
+var input = document.getElementById("myInput");
+
+// Execute a function when the user presses a key on the keyboard
+input.addEventListener("keypress", function(event) {
+  // If the user presses the "Enter" key on the keyboard
+  if (event.key === "Enter") {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("myBtn").click();
+  }
+});
