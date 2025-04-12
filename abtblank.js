@@ -7,6 +7,6 @@
             </script>
         </head>
         <body>
-            <!-- 0gtnywg3ng4.html -->
+            <!-- https://aboutblank-v2.vercel.app/ -->
         </body>
         </html>
