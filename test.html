@@ -1,10 +1,12 @@
 <html>
+  <title>about:blank</title>
+  <script>
+  window.open()
+    <script>
 <head>
 </head>
 <body>
-  <script>
-<window.open="openGame()">
-  <script>
+<button onclick="window.close(); openGame()" style="background-color: #0d3370; color: #fff; border: 1; border-color: #0d3370; vertical-align: center; font-size: 26px; width:100%; cursor: pointer; border-radius: 10px;"> Click for about:blank cloak! </button>
 <script>
 function openGame() {
 var win = window.open()
@@ -18,5 +20,19 @@ win.document.body.appendChild(iframe)
 }
 </script>
 </body>
-  eeee
+  const inputField = document.getElementById("myInput");
+
+inputField.addEventListener("keydown", function(event) {
+  if (event.key === "Enter" || event.keyCode === window.open()) {
+    // Call your function here
+    myFunction(event);
+  }
+});
+
+function myFunction(event) {
+  // Your code here
+  console.log("Enter key pressed!");
+  // You can also prevent default actions, like form submission, using event.preventDefault();
+  // event.preventDefault();
+}
 </html>
